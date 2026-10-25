@@ -9,6 +9,10 @@ robots, PLCs, embedded boards and simulators.
 
 ## Projects
 
+- **[ina700-vision-pick-and-place](https://github.com/atakangudulluogluhv/ina700-vision-pick-and-place)**
+  A Raspberry Pi with a Basler camera guides an ABB IRB 1600 robot to pick plates by
+  shape and colour. YOLO26n-OBB trained on my own lab images (mAP50 0.984), run with
+  ONNX Runtime on the Pi, ArUco-based calibration and pick verification with retry.
 - **[beamng-autopilot](https://github.com/atakangudulluogluhv/beamng-autopilot)**
   Lane keeping and adaptive cruise control in the BeamNG.tech simulator.
   Classic lane detection and a DAVE-2 CNN are blended by lane confidence;
@@ -28,5 +32,5 @@ robots, PLCs, embedded boards and simulators.
 
 ## Tools
 
-Python, OpenCV, PyTorch, YOLO, ONNX Runtime, scikit-learn · C/C++ (ESP32) ·
+Python, OpenCV, PyTorch, TensorFlow/Keras, YOLO, ONNX Runtime, scikit-learn · C/C++ (ESP32) ·
 TwinCAT 3 / Structured Text · ABB RAPID · Raspberry Pi
